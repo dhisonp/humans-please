@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="I also have Claude. When I message you, I would like to hear from you. Please do not become human middleware."
+    />
+    <meta property="og:title" content="HUMANS PLEASE." />
+    <meta
+      property="og:description"
+      content="Use AI. Read its answer. Say what you mean. Then send it."
+    />
+    <meta property="og:type" content="website" />
+    <title>Humans Please — I also have Claude.</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to the human part</a>
+    <main id="main" class="page">
+      <p class="important">
+        <strong>!!! IMPORTANT !!!</strong><br />a public service announcement,
+        apparently
+      </p>
+      <h1>HUMANS PLEASE.</h1>
+      <p class="subtitle">I want to talk to a <em>person.</em></p>
+      <p>
+        If someone sent you this link, there may have been an incident.
+        Possibly forwarding an AI answer without reading it.
+      </p>
+      <p>
+        For all you know, I’m the loneliest office worker on Earth, starved of
+        human connection. Please don’t make it worse. I talk to Claude often
+        enough every night before bed.
+      </p>
+      <p>
+        When I message <strong>you</strong>, I would like to hear from
+        <strong>you</strong>.
+      </p>
+      <p>
+        <strong>I ALSO HAVE CLAUDE.</strong> If I wanted its raw response, I’d
+        ask it myself. You are contributing network latency. Thank you,
+        middleware.
+      </p>
+      <hr />
+      <div class="workflows">
+        <div class="workflow bad">
+          <h3>Don’t do this</h3>
+          <ol class="flow" aria-label="The bad workflow">
+            <li>MESSAGE</li>
+            <li>COPY</li>
+            <li>AI</li>
+            <li>COPY</li>
+            <li>SEND</li>
+          </ol>
+          <p class="verdict">❌ DON’T DO THAT 🙅‍♀️</p>
+          <p>… WHY ARE YOU HERE?</p>
+        </div>
+        <div class="workflow good">
+          <h3>Try this exciting new technology</h3>
+          <ol class="flow" aria-label="The human workflow">
+            <li>MESSAGE</li>
+            <li>READ IT</li>
+            <li>THINK FOR A FEW SECONDS</li>
+            <li>ASK AI IF YOU WANT</li>
+            <li>READ ITS ANSWER</li>
+            <li>SAY WHAT YOU MEAN</li>
+            <li>SEND</li>
+          </ol>
+          <p class="verdict">✅ INCREDIBLE. A PERSON.</p>
+        </div>
+      </div>
+      <p>
+        Using AI is fine. Use it to think, research, or improve your writing.
+        But for the love of God:
+      </p>
+      <p class="instructions">
+        READ THE THING.<br />THINK ABOUT THE THING.<br />SAY WHAT YOU MEAN.
+      </p>
+      <p>
+        Then send it. You can even add an opinion.
+        <em>Scientists say this is possible.</em>
+      </p>
+      <h2>Instead of…</h2>
+      <div class="examples">
+        <p>
+          “Certainly! I would be delighted to accommodate a meeting at your
+          proposed time.”
+        </p>
+        <p><strong>Just say:</strong></p>
+        <blockquote>yep, 3 works</blockquote>
+        <p>
+          “This proposal presents a compelling opportunity with several key
+          considerations.”
+        </p>
+        <p><strong>Just say:</strong></p>
+        <blockquote>
+          i like the idea but that deadline is optimistic. can we do next week?
+        </blockquote>
+        <p>
+          <strong>PR reviewer:</strong> “If I remove the last item from my cart,
+          won’t this still add $5 shipping? Shouldn’t the total be $0?”
+        </p>
+        <p>
+          <strong>The reply:</strong> “It lands; the gap is found. You’ve
+          identified a meaningful boundary condition in the relationship
+          between cart state and shipping eligibility. The current
+          implementation optimizes for the populated-cart happy path, but
+          the transition to an empty cart introduces a subtle mismatch
+          between the user’s mental model and the computed total. This is
+          less a question of the five dollars in isolation and more an
+          opportunity to make the underlying invariant explicit: shipping
+          should reflect the presence of something to ship. A focused guard
+          at the appropriate boundary would bring those concerns into
+          alignment, with a targeted regression test to preserve the
+          intended behavior going forward. The shape of the fix is small;
+          the clarity it buys is substantial. Great catch.”
+        </p>
+        <p>
+          <em>Cool. Can we remove the five dollars and most of that paragraph?</em>
+        </p>
+        <p><strong>Just say:</strong></p>
+        <blockquote>
+          yep, that’s a bug. i’ll skip shipping when the cart is empty and
+          add a test.
+        </blockquote>
+      </div>
+      <p>
+        It’s okay to use imperfect English. Typos, short replies, and
+        disagreement are fine. “I don’t know” is fine. I’m your coworker, not
+        an English examiner.
+      </p>
+      <h2>Signs you may be doing this</h2>
+      <ul>
+        <li>
+          Yesterday: “lol yeah.” Today: “Let’s unpack the broader implications.”
+        </li>
+        <li>You send 700 words in response to “are you free at 3?”</li>
+        <li>Someone asks what you meant and now you have to go ask AI.</li>
+      </ul>
+      <hr />
+      <p>Use AI. AI is useful. I use Claude. Probably too much.</p>
+      <p>
+        But when I message you, please let there be at least one human involved
+        in the conversation.
+      </p>
+      <p class="closing">
+        <strong>PLEASE DO NOT BECOME HUMAN MIDDLEWARE.</strong>
+      </p>
+      <button id="copy-link" type="button">
+        Copy this link. Save your breath.
+      </button>
+      <p
+        id="share-status"
+        class="share-status"
+        role="status"
+        aria-live="polite"
+      ></p>
+      <div id="share-fallback" hidden>
+        <label for="page-url">Copy this address:</label>
+        <input id="page-url" type="url" readonly />
+      </div>
+      <footer>
+        <p>this page was vibe-coded, with love. yes, i know.</p>
+        <p>best viewed by a person · webmaster status: exhausted</p>
+      </footer>
+    </main>
+  </body>
+</html>
